@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,500&family=Fira+Sans:wght@200&family=Karla:wght@700&family=Outfit:wght@700&family=Poppins:wght@200&family=Roboto:wght@300&family=Rowdies:wght@300&family=Rubik+Wet+Paint&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #141519;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 5px;
+    width: 10px;
+    border-radius: 10px;
+    background: #1f1f1f;
+}
