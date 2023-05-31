@@ -1,4 +1,5 @@
 const index = () => {
+    const isLogin = localStorage.getItem('isLogin')
     return (
         <>
             <footer className='bg-[#0C0D10] px-10 py-10 grid grid-cols-1 md:flex md:justify-between gap-4 mt-10'>
@@ -16,13 +17,17 @@ const index = () => {
                         <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">This Season</a></li>
                         <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">Popular Anime</a></li>
                         <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">Popular Manga</a></li>
-                        <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">Login</a></li>
+                        {isLogin ? (
+                            <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">Developer</a></li>
+                        ) : (
+                            <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="/sign-up">Login</a></li>
+                        )}
                     </ul>
                     <ul className='flex flex-col gap-2'>
-                        <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">This Season</a></li>
-                        <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">Popular Anime</a></li>
-                        <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">Popular Manga</a></li>
-                        <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">Login</a></li>
+                        <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">Movies</a></li>
+                        <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">TV Shows</a></li>
+                        <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="">DMCA</a></li>
+                        <li className='text-sm sm:text-base font-karla font-semibold text-slate-300 hover:text-[#f07e5c] duration-300'><a href="https://github.com/LuckyIndraEfendi" target="_blank">Github</a></li>
                     </ul>
                 </div>
             </footer>

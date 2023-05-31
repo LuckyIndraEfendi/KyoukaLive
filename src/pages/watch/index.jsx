@@ -2,6 +2,10 @@ import React from 'react'
 import { BsBookmarks, } from "../../assets/icons"
 import { useParams } from 'react-router-dom'
 import { getWatchingAnime } from "../../hooks/api"
+import { DefaultPlayer as Video } from 'react-html5video';
+import 'react-html5video/dist/styles.css';
+import Thumbnail from "../../assets/images/thumbbig-1310699.webp"
+
 const Watch = () => {
     // const styles = useSelector((state) => state.changeDescription)
     let { animeId, animeName, epsId } = useParams();
@@ -26,9 +30,18 @@ const Watch = () => {
         watchingAnime()
     }, [epsId])
 
+
     const handleEpisode = (e) => {
         window.location.href = `/watch${e.target.value}`
     }
+
+    const videoRef = React.useRef(null);
+
+
+    const skipVideo = () => {
+        // Mengatur waktu pemutaran video ke 30 detik
+        videoRef.current.currentTime = 30;
+    };
 
     return (
         <div className="w-[95%] md:w-[90%] m-auto">
@@ -36,7 +49,7 @@ const Watch = () => {
                 <div className="leftBar md:col-span-4">
                     <div className="aspectVideo mb-">
                         <div className="mb-3">
-                            <video width='100%' controls>
+                            <video width='100%' poster={Thumbnail} controls>
                                 {watching.episodeUrl && watching.episodeUrl.map((ress, i) => (
                                     <source src={ress.episode} type={ress.type} sizes={ress.size} key={i} />
                                 ))}

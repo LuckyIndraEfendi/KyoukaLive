@@ -1,0 +1,11 @@
+VITE_BASEURL=https://anime-indo-rest-api-psi.vercel.app
+
+// Config Firebase
+
+VITE_APIKEY=//Your Firebase Project APIKEY
+VITE_AUTHDOMAIN=//Your Project Auth Domain
+VITE_PROJECT_ID=//Your Project Project ID
+VITE_STORAGE_BUCKET=//Your Project Storage Bucket
+VITE_MESSAGING_SENDER_ID=//Your Project Sender ID
+VITE_APP_ID=//Your Project App Id
+VITE_MEASUREMENT_ID=//Your Project Measurement ID
