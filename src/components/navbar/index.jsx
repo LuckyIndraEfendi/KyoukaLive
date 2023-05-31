@@ -57,14 +57,26 @@ const Navbar = () => {
                         <AiOutlineInfoCircle className="text-white text-xl" />
                         <span className="text-white text-[13px] block">About</span>
                     </a>
-                    <a href="/account" className="flex flex-col items-center gap-1 font-medium">
+                    {isLogin && <a href="/account" className="flex flex-col items-center gap-1 font-medium">
                         <FiUser className="text-white text-xl" />
                         <span className="text-white text-[13px] block">Account</span>
-                    </a>
-                    <a href="#" className="flex flex-col items-center gap-1 font-medium" onClick={handleLogOut}>
-                        <IoIosLogOut className="text-white text-xl" />
-                        <span className="text-white text-[13px] block">Logout</span>
-                    </a>
+                    </a>}
+
+                    {
+                        isLogin ? (
+                            <a href="#" className="flex flex-col items-center gap-1 font-medium" onClick={handleLogOut}>
+                                <IoIosLogOut className="text-white text-xl" />
+                                <span className="text-white text-[13px] block">Logout</span>
+                            </a>
+                        ) : (
+                            <a href="/sign-up" className="flex flex-col items-center gap-1 font-medium" >
+                                <FiUser className="text-white text-xl" />
+                                <span className="text-white text-[13px] block">Sign Up</span>
+                            </a>
+
+                        )
+                    }
+
                 </div>
                 <div className="hamburgerMenu px-2 py-2 rounded-md bg-[#272931]" onClick={handleMenuShow}>
                     <BiMenu className="text-4xl text-[#f07e5c]" />
