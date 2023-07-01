@@ -10,7 +10,7 @@
 
 <p align="center">
 
- <a href="https://github.com/DevanAbinaya/Ani-Moopa/blob/main/LICENSE.md">
+ <a href="https://github.com/LuckyIndraEfendi/KyoukaLive/blob/main/LICENSE.md">
     <img src="https://img.shields.io/github/license/DevanAbinaya/Ani-Moopa" alt="license"/>
   </a>
   <a href="https://github.com/LuckyIndraEfendi/KyoukaLive/fork">
@@ -23,25 +23,25 @@
 </p>
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/97084324/234832975-0804e6bd-8528-4f53-b0fb-7ccce5342f59.png" alt="main">
+ <img src="https://i.ibb.co/Y2gWNnZ/Screenshot-from-2023-07-01-20-12-22.png" alt="main" width="100%">
 </p>
 
 <details>
 <summary>More Screenshots</summary>
 
 <h5 align="center">Home page after you login</h5>
-<img src="https://i.ibb.co/M2yq6Y3/Screenshot-from-2023-07-01-19-52-02.png" width="100%"/>
+<img src="https://i.ibb.co/Y2gWNnZ/Screenshot-from-2023-07-01-20-12-22.png" alt="main" width="100%"/>
 
 <h5 align="center">Profile Page</h5>
 <img src="https://user-images.githubusercontent.com/97084324/234556937-76ec236c-a077-4af5-a910-0cb85e900e38.gif"/>
 
 <h5 align="center">Info page for PC/Mobile</h5>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/97084324/234508708-082b8d64-1dea-4525-98a5-51a5a95e8db3.png"/>
+<img src="https://i.ibb.co/7V9r1H3/Screenshot-from-2023-07-01-20-14-52.png" width="100%"/>
 </p>
 
 <h5 align="center">Watch Page</h5>
-<img src="https://user-images.githubusercontent.com/97084324/234466915-c2107ee5-5cfe-4cf5-9da4-9ad02aaf066a.png"/>
+<img src="https://i.ibb.co/x3PvbPL/Screenshot-from-2023-07-01-20-10-46.png" width="100%"/>
  
 </details>
 
