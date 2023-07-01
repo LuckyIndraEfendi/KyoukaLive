@@ -30,7 +30,7 @@
 <summary>More Screenshots</summary>
 
 <h5 align="center">Home page after you login</h5>
-<img src="https://user-images.githubusercontent.com/97084324/234463979-4b4fa1ba-34cb-4ae4-b4e1-59500b24ac6f.png"/>
+<img src="https://i.ibb.co/M2yq6Y3/Screenshot-from-2023-07-01-19-52-02.png" width="100%"/>
 
 <h5 align="center">Profile Page</h5>
 <img src="https://user-images.githubusercontent.com/97084324/234556937-76ec236c-a077-4af5-a910-0cb85e900e38.gif"/>
@@ -92,7 +92,7 @@ VITE_MEASUREMENT_ID=//Your Project Measurement ID
    Deploy your Rest API Using Vercel here <a href="">Anime Indo</a>
 
 ```bash
-https://{your-website-url}/
+https://{your-website-url}
 ```
 
 5. Start local server :
