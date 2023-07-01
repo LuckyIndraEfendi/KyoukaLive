@@ -103,7 +103,7 @@ npm run dev
 
 ## Credits
 
-- [AniList API](https://github.com/AniList/ApiV2-GraphQL-Docs)
+- [AnimeIndo API](https://github.com/LuckyIndraEfendi/AnimeIndo-Rest-API)
 - [miru](https://github.com/ThaUnknown/miru/) for inspiring me making this site
 
 ## License
@@ -113,15 +113,15 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Contact
 
 Thank You for passing by!!
-If you have any questions or feedback, please reach out to us at [contact@moopa.live](mailto:contact@moopa.live?subject=[Moopa]%20-%20Your%20Subject), or you can join our [discord sever](https://discord.gg/4xTGhr85BG).
+If you have any questions or feedback, please reach out to us at [contact@kyouka.live](mailto:kimilbonchu@gmail.com?subject=[Kyouka]%20-%20Your%20Subject), or you can join our [discord sever](https://discord.gg/G7PgJBJU)
 <br>
 or you can DM me on Discord `Factiven#9110`/`CritenDust#3704`. (just contact me on one of these account)
 
-[![Discord Banner](https://discordapp.com/api/guilds/822413263148285973/widget.png?style=banner2)](https://discord.gg/v5fjSdKwr2)
+[![Discord Banner](https://discordapp.com/api/guilds/822413263148285973/widget.png?style=banner2)](https://discord.gg/G7PgJBJU)
 
 ## Support This Project
 
-✨ [Star this project](https://github.com/DevanAbinaya/Ani-Moopa)
+✨ [Star this project](https://github.com/LuckyIndraEfendi/KyoukaLive)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E6F9XZ3)  
-<a href="https://trakteer.id/factiven" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-5.png" height="36" style="border: 0px; height: 36px;" alt="Trakteer Saya"></a>
+<a href="https://trakteer.id/lucky-indra-efendi-lpwhg" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-5.png" height="36" style="border: 0px; height: 36px;" alt="Trakteer Saya"></a>
