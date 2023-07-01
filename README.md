@@ -78,19 +78,21 @@ npm install
 3. Create `.env` file in the root folder and put this inside the file :
 
 ```bash
-CLIENT_ID="get the id from here https://anilist.co/settings/developer"
-CLIENT_SECRET="get the secret from here https://anilist.co/settings/developer"
-GRAPHQL_ENDPOINT="https://graphql.anilist.co"
-NEXTAUTH_SECRET='run this cmd in your bash terminal (openssl rand -base64 32) with no bracket, and paste it here'
-NEXTAUTH_URL="for development use http://localhost:3000/ and for production use your domain url"
-PROXY_URI="I recommend you to use this cors-anywhere as a proxy https://github.com/Rob--W/cors-anywhere follow the instruction on how to use it there."
-API_URI="host your own API from this repo https://github.com/consumet/api.consumet.org you can deploy it using the one click setup there. very easy"
+VITE_BASEURL=//Your Rest API Anime Indo Here
+VITE_APIKEY=//Your Firebase Project APIKEY
+VITE_AUTHDOMAIN=//Your Project Auth Domain
+VITE_PROJECT_ID=//Your Project Project ID
+VITE_STORAGE_BUCKET=//Your Project Storage Bucket
+VITE_MESSAGING_SENDER_ID=//Your Project Sender ID
+VITE_APP_ID=//Your Project App Id
+VITE_MEASUREMENT_ID=//Your Project Measurement ID
 ```
 
-4. Add this endpoint as Redirect Url on AniList Developer :
+4. Add this endpoint Rest API Anime Indo :
+   Deploy your Rest API Using Vercel here <a href="">Anime Indo</a>
 
 ```bash
-https://{your-website-url}/api/auth/callback/AniListProvider
+https://{your-website-url}/
 ```
 
 5. Start local server :
